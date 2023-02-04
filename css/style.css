@@ -238,7 +238,7 @@ margin-right: 40px;
   display: flex;
   margin-bottom: 72px;
   justify-content: space-between;
-  gap: 10px;
+  gap: 30px;
   flex-basis: ((100% - 72px)/4);
 }
 
@@ -311,16 +311,28 @@ letter-spacing: 0.04;
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-color);
+  margin-bottom: 8px;
 }
 
+.projects-backgr {
+  background-color: var(--secondary-font-color);
+}
 .projects-list {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 
 }
 .projects-text {
 font-size: 16px;
 line-height: 1.5;
 color: var(--main-color);
+}
+
+.projects-list-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .section-inverse {
   background-color: var(--secondory-color);
