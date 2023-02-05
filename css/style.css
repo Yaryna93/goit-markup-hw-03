@@ -38,9 +38,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .container {
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  outline: 2px solid red;
 }
 
 address {
@@ -276,15 +278,16 @@ margin-right: 40px;
   line-height: 1.5px;
   color:var(--accent-color);
   display: flex;
-  margin-top: 96px;
-  margin-bottom: 72px;
-  margin-left: 427px;
-  
+  padding-top: 96px;
+  padding-bottom: 72px;
+  padding-left: 250px;
+
 }
 
 .filter-item {
-  display: flex;
-  margin-left: 24px;
+ margin-left: 24px;
+
+
 }
 
 .filter-button {
