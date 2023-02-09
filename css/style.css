@@ -61,16 +61,18 @@ list-style: none;
 
 .section {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
-.section-servive {
+.section-service {
   margin-top: 0;
+  padding-bottom: 120px;
 }
 /*-------------HEADER--------------- */
 
 .header {
   background-color: #FFFFFF;
-border-bottom:#E7E9FC;
+  border-bottom:1px solid #E7E9FC;
 }
 
 .header-container {
@@ -84,7 +86,9 @@ border-bottom:#E7E9FC;
   padding-bottom: 24px;
   margin-right: 76px;
 }
-.header-navigation {}
+.header-navigation {
+  display: flex;
+}
 
 .accent {
   color:var(--accent-color);
@@ -166,7 +170,7 @@ margin-right: 40px;
   padding-bottom: 188px;
   background: var(--primary-color);
 }
-
+ 
 .text-main {
   max-width: 496px;
   font-size: 56px;
@@ -219,9 +223,7 @@ margin-right: 40px;
   gap: 24px;
  }
   .card-sets {
-    flex-basis: ((100% - 72px)/4);
-    margin-right: 24px;
-    width: 264px;
+    flex-basis: calc((100% - 72px)/4);
   }
  
 
@@ -261,13 +263,13 @@ margin-right: 40px;
 
 .list-teams {
   display: flex;
-  margin-bottom: 72px;
   gap: 24px;
 }
 
 .names-backgr {
   background: var(--secondary-font-color);
   flex-basis: calc((100% - 72px)/4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .teams {
@@ -337,12 +339,13 @@ letter-spacing: 0.04em;
 }
  .projects {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
  }
 
 .projects-backgr {
   background-color: var(--secondary-font-color);
   flex-basis: calc((100% - 48px)/3);
+  width: 360px;
 }
 
 .projects-list {
