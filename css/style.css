@@ -72,7 +72,7 @@ list-style: none;
 
 .header {
   background-color: #FFFFFF;
-  border-bottom:1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -166,6 +166,7 @@ margin-right: 40px;
 /*----------MAIN STUDIO--------*/
 
 .hero {
+  background-image: url();
   padding-top: 188px;
   padding-bottom: 188px;
   background: var(--primary-color);
